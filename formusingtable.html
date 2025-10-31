@@ -6,49 +6,100 @@
     <title>form using table</title>
 </head>
 <body>
+    
+            
     <center>
-        <h1> 
-            Novell Services Login
-        </h1>
-    </center> <table border="1"  align="center">
+        <h1>
+        REGISTRATION FORM
+        </h1><table>
         <form action=" "><tr><td>
-           User Name:</td><td>
-            <input type="text" placeholder="enter your username"></td></tr>
-            <tr> <td>
-            Password:
-            </td> <td><input type="password" name="password" placeholder="enter your password"> </td></tr>
-            <tr> <td> City Of Employment</td>
-            <td> 
-                <input type="text" placeholder="enter city of employment">
-            </td></tr>
-            <tr>  <td><label> Web Server </label> &nbsp;  </td>
-                <td><select>
-                <option> 1</option>
-                <option> 2</option>
-                <option> 3</option>
-                <option> 4</option>
-            </select> </td></tr>
-            <tr> <td> <label> Please specify your role  </label> </td><td>
-                <input type="radio" name="role" checked> Admin <br>
-                <input type="radio" name ="role"> Engineer
-                <br>
-                <input type="radio" name="role">Manager <br>
-                <input type="radio" name ="role"> Guest <br></td> </tr>
+        Name:</td><td>
+        <input type="text" placeholder="enter your name"></td></tr>
+    <tr><td>
+            Password:</td><td>
+            <input type="text" placeholder=" enter the password"></td></tr>
+    <tr><td>
+    E mail: </td><td>
+    <input type="text" placeholder=" enter your email"></td></tr>
+    <tr><td>
+    Phone no: </td><td>
+    <input type="text" placeholder=" enter your phone number"></td></tr>
+    <tr><td>
+    Gender:</td><td>
+    <input type="radio" 
+                   id="male" 
+                   name="gender" 
+                   value="male">
+                   <level for="gender"> Male</level>
+    
+    <input type="radio" 
+                   id="Female" 
+                   name="gender" 
+                   value="Female">
+                   <level for="gender"> Female</level></td></tr>
                 <tr><td>
-                    Single Sign in in the following</td><td>
-                
-                    <input type="checkbox" id="sign" name="sign" value="Mail">
-                    <label for="sign"> Mail</label><br>
-     
-     <input type="checkbox" id="sign" name="sign" value="Payroll">
-     <label for="sign"> Payroll </label><br>
-     
-     <input type="checkbox" id="sign" name="sign" value="self service"> 
-     <label for="sign"> self service </label><br></td></tr>
-     <tr> <td>
-        <input type="login" value="login"></td><td>
-<input type="reset" value="reset"></td></tr>
-
-    </table>
+                   Date of birth:</td><td>
+                   
+                   
+                   <select id="day" name="day">
+                     <option value="">Day</option>
+                     <option value="1">1</option>
+                     <option value="2">2</option>
+                     <option value="3">3</option>
+                     <option value="2">4</option>
+                     <option value="2">5</option>
+                     <option value="2">6</option>
+                     <option value="2">7</option>
+                     <option value="2">8</option>
+                     <option value="2">9</option>
+                     <option value="10">10</option>
+                   </select>
+                   <select id="month" name="month">
+                     <option value="">Month</option>
+                     <option value="1">January</option>
+                     <option value="2">February</option>
+                     <option value="3">March</option>
+                     <option value="4">April</option>
+                     <option value="5">May</option>
+                     <option value="6">June</option>
+                     <option value="7">July</option>
+                     <option value="8">august</option>
+                     <option value="9">september</option>
+                     <option value="10">october</option>
+                     <option value="11">november</option>
+                     <option value="12">December</option>
+                   </select>
+                   <select id="year" name="year">
+                     <option value="">Year</option>
+                     <option value="2023">2024</option>
+                     <option value="2022">2023</option>
+                     <option value="2021">2021</option>
+                     <option value="1900">1991</option></select></td>
+                   </tr><tr><td>
+                   Language Known:</td><td>
+                   <input type="checkbox" id="language1" name="language 1" value="English">
+    <label for="language1"> English </label>
+    <input type="checkbox" id="language2" name="language2" value="Hindi">
+    <label for="language2"> Hindi </label>
+    <input type="checkbox" id="language3" name="language3" value="tamil">
+    <label for="language3"> tamil </label>
+    <input type="checkbox" id="language4" name="language4" value="telugu">
+    <label for="language4"> telugu </label>
+                </td></tr><tr><td>
+                Address:</td><td>
+                <textarea id="textarea" name="textarea">
+                    
+                    </textarea></td></tr><tr> <td>
+                    <input type="submit" value="submit"></td><td>
+            <input type="reset" value="reset"></td></tr></form></table>
+    </center>
+    </tr>
+    
+    </body>
+    </html>
+    
+    
+    
+    
 </body>
 </html>
